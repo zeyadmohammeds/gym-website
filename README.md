@@ -1,67 +1,59 @@
 # Gym Landing Page
 
-![Gym Landing Page preview](https://i.ibb.co/fd0vLZSW/image.png)
+A responsive fitness-club landing page concept focused on presenting training programs, building trust with testimonials, and helping visitors contact the business.
 
-A modern, responsive landing page concept for a fitness club, designed to present training programs, highlight results, build trust with testimonials, and help visitors get in touch.
+**Live demo:** https://gym-phi-lake.vercel.app/
 
-🔗 **Live Demo:** https://gym-phi-lake.vercel.app/
+![Gym landing page preview](https://i.ibb.co/fd0vLZSW/image.png)
 
-## Features
+## Highlights
 
-- Responsive layout for desktop, tablet, and mobile screens
+- Responsive layouts for desktop, tablet, and mobile
 - Fitness programs and training information
 - Interactive before-and-after comparison slider
 - Testimonials section
-- Contact form for inquiries
-- Motion and visual interactions to make the experience feel dynamic
-- Deployed live on Vercel
+- Contact form UI
+- Motion and interaction details
+- Deployment on Vercel
 
-## Tech Stack
+## Tech stack
 
-- **Next.js** — web application framework
-- **React** — component-based UI
-- **Vercel** — deployment and hosting
-- **Serverless API route** — contact-form handling
+- Next.js
+- React
+- JavaScript / CSS
+- Vercel deployment
+- Serverless API route for contact-form handling
 
-> The contact endpoint may require configuration for forwarding submissions to an external service. Set the `CONTACT_ENDPOINT` environment variable if your implementation uses it.
+## Run locally
 
-## Getting Started
+### Prerequisites
 
-Clone the repository:
+Install a compatible Node.js version and npm.
+
+### Setup
 
 ```bash
 git clone https://github.com/zeyadmohammeds/gym-website.git
 cd gym-website
-```
-
-Install dependencies:
-
-```bash
 npm install
-```
-
-Run the development server:
-
-```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+Open http://localhost:3000 unless the development server reports a different port.
+
+## Contact form configuration
+
+The contact form's ability to deliver messages depends on the implementation and deployment configuration. Review the API route and configure any required environment variables in your local environment and Vercel project settings. Do not commit credentials or private endpoint tokens.
 
 ## Deployment
 
-The project is deployed on [Vercel](https://vercel.com/). To deploy your own copy, import the repository into Vercel and configure any required environment variables.
+The project is deployed on [Vercel](https://vercel.com/). To deploy your own instance, import the repository into Vercel, review the build settings, and configure any required environment variables.
 
-## Project Preview
+## Project status
 
-Visit the [live website](https://gym-phi-lake.vercel.app/) to explore the current version.
+This is a portfolio/demo project. Verify the contact workflow and environment configuration before using it for a real business.
 
 ## Author
 
-**Zeyad Mohammed**
-
-- GitHub: [@zeyadmohammeds](https://github.com/zeyadmohammeds)
-
----
-
-If you find this project useful or have suggestions, feel free to open an issue or contribute.
+**Zeyad Mohammed**  
+[GitHub profile](https://github.com/zeyadmohammeds)
